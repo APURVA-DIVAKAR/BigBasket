@@ -16,7 +16,7 @@ import {
 } from "@chakra-ui/react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-// import { Navigate, useNavigate } from "react-router";
+
 
 export const Cart = () => {
   const navigate = useNavigate();
@@ -31,31 +31,14 @@ export const Cart = () => {
   }, []);
 
   const handleInc = (e) => {
-    // let productId = e._id;
+   
     setstate((e) => e - 1);
-
-    // axios
-    //   .post(`http://localhost:8080/cart/updateone`, {
-    //     id,
-    //     productId,
-    //   })
-    //   .then((r) => console.log(r));
   };
   const handleDec = (e) => {
-    // let productId = e._id;
-
-    // axios
-    //   .post(`http://localhost:8080/cart/updatemin`, {
-    //     id,
-    //     productId,
-    //   })
-    //   .then((r) => console.log(r));
+    
     setstate((e) => e + 1);
   };
-  //   let total = cart.length ? cart.reduce((a,b) => {
-  //    return Number(a.Price) + Number(b.Price)
-  //   },0):0
-  //  console.log(cart)
+  
 
   let saved = 0;
   let total = 0;

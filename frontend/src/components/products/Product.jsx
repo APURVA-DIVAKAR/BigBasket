@@ -9,9 +9,6 @@ const Product = () => {
   const [data, setData] = React.useState([]);
   const [checked, setChecked] = React.useState("");
 
-  // const url =useParams()
-  // console.log(url)
-
   function SortD(val) {
     // console.log(val);
     let buy = data.sort((a, b) => {

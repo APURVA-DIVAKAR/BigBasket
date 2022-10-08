@@ -55,28 +55,6 @@ export const Details = ({ data }) => {
           </div>
         </Container>
 
-        {/* <Container>
-          <Flex>
-            <p>Benefits</p>
-            <i class="fa-solid fa-plus"></i>
-          </Flex>
-          <div>
-            <Ul>
-              <li>
-                Onions are high in sulphur, Folic acid, Amino acid, vitamin B6
-                and B9. It has high quantities of water and naturally low in
-                fat. It is high in phytochemical compounds.
-              </li>
-              <li>
-                Onions are known to have antiseptic, antimicrobial and
-                antibiotic properties which help you to get rid of infections.If
-                a piece of onion is inhaled, it can slow down or stop nose
-                bleeding.
-              </li>
-            </Ul>
-          </div>
-        </Container> */}
-
         <Container>
           <Flex>
             <p>Storage and Uses</p>

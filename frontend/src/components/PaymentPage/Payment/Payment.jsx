@@ -11,8 +11,6 @@ const Payment = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // if(!details==null){
     toast({
       title: "Payment Successfull.",
       description: "Payment Done Successfully",
@@ -20,7 +18,7 @@ const Payment = () => {
       duration: 2000,
       isClosable: true,
     });
-    // }
+    
 
     navigate("/");
   };
