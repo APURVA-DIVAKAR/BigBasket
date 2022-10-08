@@ -183,7 +183,10 @@ export const Info = ({ data }) => {
     let id = JSON.parse(localStorage.getItem("data")).id;
     axios
       .post(`https://bigbasketbackend.herokuapp.com/cart/${id}`, { ...data, quantity: 1 })
-      .then((r) => console.log(r));
+      .then((r) => {
+      // console.log(r)
+      }
+      );
 
     toast({
       title: "Product added.",

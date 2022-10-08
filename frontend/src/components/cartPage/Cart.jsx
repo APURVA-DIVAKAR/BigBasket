@@ -23,7 +23,7 @@ export const Cart = () => {
   let [cart, setcart] = useState([]);
   let [state, setstate] = useState(1);
   let id = JSON.parse(localStorage.getItem("data")).id;
-  console.log(id);
+  // console.log(id);
   useEffect(() => {
     axios
       .get(`https://bigbasketbackend.herokuapp.com/cart/${id}`)

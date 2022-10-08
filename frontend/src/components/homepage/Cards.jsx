@@ -28,7 +28,7 @@ const Cards = () => {
   var getInitials = function (string) {
     var names = string.split(" ");
     var initials;
-    console.log(names);
+    // console.log(names);
     if (names.length > 2) {
       initials = names.slice(0, 1).join(" ");
     } else if (names.length >= 0) {

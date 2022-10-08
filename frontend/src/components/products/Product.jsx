@@ -13,7 +13,7 @@ const Product = () => {
   // console.log(url)
 
   function SortD(val) {
-    console.log(val);
+    // console.log(val);
     let buy = data.sort((a, b) => {
       if (val == "lth") {
         return a.Price - b.Price;

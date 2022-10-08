@@ -16,8 +16,8 @@ export const ProductDetails = () => {
   const [data, setData] = React.useState([]);
 
   const path = useLocation().pathname.split("/")[2];
-  console.log(path);
-  console.log(data);
+  // console.log(path);
+  // console.log(data);
 
   useEffect(() => {
     axios.get(`https://bigbasketbackend.herokuapp.com/products/${path}`).then((res) => {
